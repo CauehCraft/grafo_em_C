@@ -5,7 +5,7 @@ void main(){
 
   typedef struct grafo{
     int vertices;
-    int arrestas;
+    int arestas;
   } Grafo;
 
   
