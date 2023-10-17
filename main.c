@@ -97,7 +97,7 @@ void exibirGrafo(Grafo* grafo) {
 
 // Função principal
 int main() {
-    FILE *file = fopen("grafo.txt", "r");
+    FILE *file = fopen("output/grafo.txt", "r");
     if (file == NULL) {
         printf("Não foi possível abrir o arquivo.\n");
         return 1;
